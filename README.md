@@ -71,4 +71,4 @@ To get started with this project, follow these steps:
 
 ## Contact
 
-For any inquiries or further information, please contact [Amzilox](wa.link/7j1ygm).
+For any inquiries or further information, please contact <a href="https://wa.link/7j1ygm" target="_blank">Amzilox</a>.
