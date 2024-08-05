@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" href="img/icon1.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>HomeFlex | When Systems Meets Excellence</title>
+  <script defer src="script.js"></script>
+
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <img src="img/logo.png" alt="Bankist logo" class="nav__logo" id="logo" />
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">Features</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">How It Works</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">Testimonials</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="#">Get Started</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__title">
+      <h1>
+        When
+        <!-- Green highlight effect -->
+        <span class="highlight">systems</span> meets<br />
+        <span class="highlight">excellence</span>
+      </h1>
+      <h4>A Smarter Home for a Simpler Life</h4>
+      <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+      <img src="img/hero.png" class="header__img" alt="Smart home technology" />
+    </div>
+  </header>
+
+  <section class="section" id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">Features</h2>
+      <h3 class="section__header">
+        State-of-the-art solutions for a smarter home.
+      </h3>
+    </div>
+
+    <div class="features">
+      <img src="img/light-lazy.jpg" data-src="img/light.jpg" alt="Smart home devices" class="features__img lazy-img" />
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-cloud-lightning"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">Smart Lighting</h5>
+        <p>
+          Control your lighting from anywhere with our intuitive app. Set schedules, adjust brightness, and create the
+          perfect ambiance for any occasion.
+        </p>
+      </div>
+
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-lock"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">Advanced Security</h5>
+        <p>
+          Enhance your home security with smart locks, cameras, and motion detectors. Monitor your property in real-time
+          and receive instant alerts.
+        </p>
+      </div>
+      <img src="img/security-lazy.jpg" data-src="img/security.jpg" alt="Smart security"
+        class="features__img lazy-img" />
+
+      <img src="img/thermostat-lazy.jpg" data-src="img/thermostat.jpg" alt="Smart thermostat"
+        class="features__img lazy-img" />
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-thermometer"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">Smart Thermostat</h5>
+        <p>
+          Optimize your home's temperature with a smart thermostat that learns your preferences and adjusts
+          automatically for maximum comfort and energy savings.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">How It Works</h2>
+      <h3 class="section__header">
+        Seamless integration for a smarter home.
+      </h3>
+    </div>
+
+    <div class="operations">
+      <div class="operations__tab-container">
+        <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+          <span>01</span>Smart Setup
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02</span>Device Control
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03</span>Automated Actions
+        </button>
+      </div>
+      <div class="operations__content operations__content--1 operations__content--active">
+        <div class="operations__icon operations__icon--1">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-upload"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Easy Setup, instantly!
+        </h5>
+        <p>
+          Our devices are designed for easy installation and integration with your existing home network. Get started
+          quickly with our step-by-step guide.
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-home"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Control from Anywhere
+        </h5>
+        <p>
+          Use our mobile app to control your smart devices from anywhere. Adjust settings, monitor your home, and
+          receive notifications in real-time.
+        </p>
+      </div>
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-eye"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Intelligent Automation
+        </h5>
+        <p>
+          Create customized automation routines to simplify your daily life. Set triggers for lights, temperature, and
+          security based on time, location, or other conditions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--3">
+    <div class="section__title section__title--testimonials">
+      <h2 class="section__description">What Our Users Say</h2>
+      <h3 class="section__header">
+        Join the revolution of smart home living.
+      </h3>
+    </div>
+
+    <div class="slider">
+      <div class="slide slide--1">
+        <div class="testimonial">
+          <h5 class="testimonial__header">Revolutionized my home experience!</h5>
+          <blockquote class="testimonial__text">
+            Since installing SmartHome, my entire daily routine has become so much smoother. I can control everything
+            from my phone, whether I'm at home or away. The automation features have been a game-changer for managing my
+            energy consumption and ensuring that my home is secure. The setup was straightforward, and the customer
+            support team was incredibly helpful in answering all my questions. It's truly transformed the way I live!
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Omis elbssir</h6>
+            <p class="testimonial__location">Nara, Japan</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide slide--2">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            A game-changer for modern living
+          </h5>
+          <blockquote class="testimonial__text">
+            SmartHome has been an absolute revelation. From the intuitive app interface to the seamless integration
+            with all my devices, it's made managing my home incredibly easy. The ability to set up custom routines and
+            control everything from a single app is fantastic. I especially love the energy-saving features, which have
+            made a noticeable difference in my utility bills. Highly recommend to anyone looking to upgrade their home
+            automation!
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-2.png" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Youness Hama</h6>
+            <p class="testimonial__location">Agadir, Morocco</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide slide--3">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            Seamlessly integrated into my life
+          </h5>
+          <blockquote class="testimonial__text">
+            I was amazed at how quickly SmartHome integrated with my existing setup. The automation routines have made
+            managing my home a breeze. Whether it's setting the lights to turn on when I get home or adjusting the
+            thermostat from my phone, everything just works. The system's reliability and ease of use have exceeded my
+            expectations. It's like having a personal assistant for my home!
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Francisco Gomes</h6>
+            <p class="testimonial__location">Lisbon, Portugal</p>
+          </address>
+        </div>
+      </div>
+
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+  <section class="section section--sign-up">
+    <div class="section__title">
+      <h3 class="section__header">
+        The best time to upgrade your home was yesterday. The second best is today!
+      </h3>
+    </div>
+    <button class="btn btn--show-modal">Get started with SmartHome today!</button>
+  </section>
+
+  <footer class="footer">
+    <ul class="footer__nav">
+      <li class="footer__item">
+        <a class="footer__link" href="#">About Us</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Pricing</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Terms of Service</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Privacy Policy</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Careers</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Blog</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Contact Us</a>
+      </li>
+    </ul>
+    <img src="img/icon1.png" alt="Logo" class="footer__logo" />
+    <p class="footer__copyright">
+      &copy; Copyright by
+      <a class="footer__link github-link" target="_blank" href="https://github.com/amzilox">Med Hamza Amzil</a>. Use for
+      learning or your portfolio. Don't use to teach. Don't claim
+      as your own product.
+    </p>
+  </footer>
+
+  <div class="modal hidden">
+    <button class="btn--close-modal">&times;</button>
+    <h2 class="modal__header">
+      Start your SmartHome journey <br />
+      in just <span class="highlight">5 minutes</span>
+    </h2>
+    <form class="modal__form">
+      <label>First Name</label>
+      <input type="text" />
+      <label>Last Name</label>
+      <input type="text" />
+      <label>Email Address</label>
+      <input type="email" />
+      <button class="btn">Next step &rarr;</button>
+    </form>
+  </div>
+  <div class="overlay hidden"></div>
+
+</body>
+
+</html>
